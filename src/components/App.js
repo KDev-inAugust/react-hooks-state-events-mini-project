@@ -18,10 +18,7 @@ function App() {
 
   function handleCategoryClick (e){
     setSelectedCategory(e.target.innerText);
-    if (e.target.className!="selected"){
-      e.target.className="selected";
-    } 
-    else e.target.className=""
+    
   }
 
   function addTask (obj){
